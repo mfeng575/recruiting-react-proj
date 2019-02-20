@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer.test.js renders without crashing 1`] = `
+<footer>
+  <div>
+    @copyright PGA 2019
+  </div>
+</footer>
+`;

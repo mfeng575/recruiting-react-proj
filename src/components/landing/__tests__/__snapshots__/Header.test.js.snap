@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header.test.js renders without crashing 1`] = `
+<header>
+  <div
+    className="jumbotron jumbotron-fluid bg-info text-white text-left"
+  >
+    <div
+      className="container"
+    >
+      <h1
+        className="display-4"
+      >
+        PGA Leaderboard Application
+      </h1>
+      <p
+        className="lead"
+      >
+        for interview & demo purposes
+      </p>
+    </div>
+  </div>
+</header>
+`;

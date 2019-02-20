@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayerForm.test.js renders without crashing 1`] = `
+<form>
+  <h1>
+    Add Player
+  </h1>
+  <Field
+    component={[Function]}
+    label="First Name"
+    name="firstName"
+    placeholder=""
+    type="text"
+    validate={
+      Array [
+        [Function],
+      ]
+    }
+  />
+  <Field
+    component={[Function]}
+    label="Last Name"
+    name="lastName"
+    placeholder=""
+    type="text"
+    validate={
+      Array [
+        [Function],
+      ]
+    }
+  />
+  <Field
+    component={[Function]}
+    label="Score"
+    name="score"
+    parse={[Function]}
+    placeholder=""
+    type="number"
+    validate={
+      Array [
+        [Function],
+        [Function],
+        [Function],
+      ]
+    }
+  />
+  <div>
+    <button
+      className="btn btn-primary"
+      disabled={false}
+      type="submit"
+    >
+      <i
+        aria-hidden="true"
+        className="fa fa-paper-plane-o"
+      />
+       Submit
+    </button>
+    <button
+      className="btn btn-default btn-space"
+      onClick={[Function]}
+      type="button"
+    >
+      Cancel
+    </button>
+  </div>
+</form>
+`;

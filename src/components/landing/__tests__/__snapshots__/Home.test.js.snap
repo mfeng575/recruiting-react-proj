@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home.test.js renders without crashing 1`] = `
+<div>
+  <Header />
+  <div
+    className="container text-muted"
+  >
+    <Footer />
+  </div>
+</div>
+`;

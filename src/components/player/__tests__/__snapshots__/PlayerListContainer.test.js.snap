@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayerListContainer.test.js renders without crashing 1`] = `
+<div
+  className="container-fluid"
+>
+  <div
+    className="row mt-3"
+  >
+    <div
+      className="col"
+    >
+      <h1>
+        PGA Leader Board
+      </h1>
+    </div>
+  </div>
+  <div
+    className="row mt-3"
+  >
+    <div
+      className="col"
+    >
+      <div
+        className="btn-group"
+        role="group"
+        style={
+          Object {
+            "float": "right",
+          }
+        }
+      >
+        <button
+          className="btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          <i
+            aria-hidden="true"
+            className="fa fa-plus"
+          />
+           Add Player
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <PlayerList
+        handleDelete={[Function]}
+        handleEdit={[Function]}
+        handleRowSelect={[Function]}
+        players={
+          Array [
+            Object {
+              "firstName": "Tiger",
+            },
+          ]
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

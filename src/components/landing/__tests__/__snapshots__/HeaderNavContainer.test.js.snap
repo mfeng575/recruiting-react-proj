@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderNavContainer.test.js renders without crashing 1`] = `
+<nav
+  className="navbar navbar-toggleable-sm bg-info navbar-inverse"
+>
+  <div
+    className="container"
+  >
+    <button
+      className="navbar-toggler"
+      data-target="#mainNav"
+      data-toggle="collapse"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      className="collapse navbar-collapse"
+      id="mainNav"
+    >
+      <div
+        className="navbar-nav"
+      >
+        <NavLink
+          activeClassName="active"
+          aria-current="page"
+          className="nav-item nav-link"
+          exact={true}
+          to="/"
+        >
+          Home
+        </NavLink>
+        <NavLink
+          activeClassName="active"
+          aria-current="page"
+          className="nav-item nav-link"
+          to="/leaderboard"
+        >
+          PGA Leader Board
+        </NavLink>
+        <span
+          className="ml-5"
+        />
+      </div>
+    </div>
+  </div>
+</nav>
+`;

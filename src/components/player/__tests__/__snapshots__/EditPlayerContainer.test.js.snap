@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditPlayerContainer.test.js renders without crashing 1`] = `
+<div
+  className="container"
+>
+  <ReduxForm
+    destroyOnUnmount={true}
+    enableReinitialize={false}
+    forceUnregisterOnUnmount={false}
+    form="PlayerForm"
+    getFormState={[Function]}
+    handleCancel={[Function]}
+    handleSave={[Function]}
+    heading="Add Player"
+    initialValues={
+      Object {
+        "firstName": "",
+        "id": "",
+        "lastName": "",
+        "score": 0,
+      }
+    }
+    keepDirtyOnReinitialize={false}
+    persistentSubmitErrors={false}
+    pure={true}
+    shouldAsyncValidate={[Function]}
+    shouldError={[Function]}
+    shouldValidate={[Function]}
+    shouldWarn={[Function]}
+    touchOnBlur={true}
+    touchOnChange={false}
+    updateUnregisteredFields={false}
+  />
+</div>
+`;
