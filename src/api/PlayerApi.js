@@ -16,7 +16,13 @@ const players = [
         firstName: "John",
         lastName: "Junge",
         score: 96,
-    },    
+    }, 
+    {
+        id: '10ab038e-48da-487b-96e8-8d3b99b6d18a',
+        firstName: "Tiger",
+        lastName: "Woods",
+        score: 88,
+    },     
     {
         id: 'fdda765f-fc57-5604-a269-52a7df8164ec',
         firstName: "Rob",
@@ -25,8 +31,8 @@ const players = [
     },
     {
         id: '3bbcee75-cecc-5b56-8031-b6641c1ed1f1',
-        firstName: "Tiger",
-        lastName: "Woods",
+        firstName: "Mike",
+        lastName: "Feng",
         score: 89,
     },
 ];
